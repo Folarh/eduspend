@@ -1,0 +1,4 @@
+the core component in this interfcae is the component called "MAIN"
+whixh houses every other component.
+
+and the other core component is the MusicContainer component.....

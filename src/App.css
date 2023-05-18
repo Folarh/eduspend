@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+
+.app{
+ border: 1px solid grey;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.search{
+  display: flex;
+  border: 1px solid grey;
+  margin: 15px;
+  background-color: white;
+}
+
+.search div{
+ flex: 0.9;
+ border-bottom: 1px solid grey;
+}
+
+.search div p{
+  text-align: right;
+  padding-right: 5px;
+ }
+.search button{
+  background-color: orange;
+ color: white;
+ font-weight: 600;
+ border: none;
+ flex:0.1;
+ /* padding: 10px; */
+ border-radius: 10px;
+ margin: 5px;
+}
+
+
+
+.main-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details{
+  padding-left: 50px;
+}
+
+.details button{
+  padding: 0.5rem;
+  color: white;
+  background-color: orange;
+  border: none;
+  text-align: left;
+}
+
+.music-container{
+  border: 2px solid grey;
+  padding:10px;
+  min-width: 300px;
+  background-color: grey;
+  margin: 10px;
+}
+
+.music-container button{
+  background-color: orange;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem;
+  border: none;
+}
+
+
+
+.list-item P{
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px;
+}
+
+.list-item span{
+  font-weight: 900;
+ 
+}
+
+
+
